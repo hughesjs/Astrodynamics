@@ -1,4 +1,4 @@
-namespace Placeholder.Tests;
+namespace OrbitalMechanics.Tests;
 
 public class UnitTest1
 {
