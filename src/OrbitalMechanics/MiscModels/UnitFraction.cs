@@ -18,7 +18,7 @@ public class UnitFraction : INumber<UnitFraction>
 		}
 	}
 
-	private UnitFraction(decimal d)
+	public UnitFraction(decimal d)
 	{
 		InnerValue = d;
 	}
