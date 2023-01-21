@@ -7,12 +7,12 @@
         <LangVersion>default</LangVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Version>0.0.1</Version>
-        <Title>OrbitalMechanics</Title>
+        <Title>Astrodynamics</Title>
         <Authors>James Hughes</Authors>
         <Description>A C# library for working with orbits</Description>
-        <PackageProjectUrl>https://github.com/hughesjs/OrbitalMechanics</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/hughesjs/OrbitalMechanics/blob/master/LICENSE</PackageLicenseUrl>
-        <RepositoryUrl>https://github.com/hughesjs/OrbitalMechanics.git</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/hughesjs/Astrodynamics</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/hughesjs/Astrodynamics/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/hughesjs/Astrodynamics.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageReadmeFile>./readme.md</PackageReadmeFile>
     </PropertyGroup>
