@@ -1,10 +1,10 @@
+using Astrodynamics.Attributes;
+using Astrodynamics.Enums;
+using Astrodynamics.MiscModels;
 using JetBrains.Annotations;
-using OrbitalMechanics.Attributes;
-using OrbitalMechanics.Enums;
-using OrbitalMechanics.MiscModels;
 using UnitsNet;
 
-namespace OrbitalMechanics.OrbitModels;
+namespace Astrodynamics.OrbitModels;
 
 [UsedImplicitly]
 public class ClassicalKeplerian

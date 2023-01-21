@@ -1,8 +1,8 @@
+using Astrodynamics.Attributes;
 using JetBrains.Annotations;
-using OrbitalMechanics.Attributes;
 using UnitsNet;
 
-namespace OrbitalMechanics.OrbitModels;
+namespace Astrodynamics.OrbitModels;
 
 [UsedImplicitly]
 public class ModifiedKeplerian

@@ -1,4 +1,4 @@
-namespace OrbitalMechanics.Attributes;
+namespace Astrodynamics.Attributes;
 
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
 public class CommonSymbolAttribute: Attribute

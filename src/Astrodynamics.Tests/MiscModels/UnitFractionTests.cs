@@ -1,7 +1,7 @@
-using OrbitalMechanics.Exceptions;
-using OrbitalMechanics.MiscModels;
+using Astrodynamics.Exceptions;
+using Astrodynamics.MiscModels;
 
-namespace OrbitalMechanics.Tests.MiscModels;
+namespace Astrodynamics.Tests.MiscModels;
 
 public class UnitFractionTests
 {

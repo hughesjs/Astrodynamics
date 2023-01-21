@@ -1,8 +1,8 @@
 using System.Globalization;
 using System.Numerics;
-using OrbitalMechanics.Exceptions;
+using Astrodynamics.Exceptions;
 
-namespace OrbitalMechanics.MiscModels;
+namespace Astrodynamics.MiscModels;
 
 public class UnitFraction : INumber<UnitFraction>
 {

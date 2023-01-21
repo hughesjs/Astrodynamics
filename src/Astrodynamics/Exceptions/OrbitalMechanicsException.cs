@@ -1,4 +1,4 @@
-namespace OrbitalMechanics.Exceptions;
+namespace Astrodynamics.Exceptions;
 
 public class OrbitalMechanicsException: Exception
 {
