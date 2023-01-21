@@ -1,4 +1,4 @@
-namespace OrbitalMechanics.Tests;
+namespace Astrodynamics.Tests;
 
 public class UnitTest1
 {
