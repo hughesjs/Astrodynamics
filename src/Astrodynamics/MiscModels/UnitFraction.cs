@@ -23,6 +23,10 @@ public class UnitFraction : INumber<UnitFraction>
 		InnerValue = d;
 	}
 
+	public static explicit operator double(UnitFraction u) => (double)u.InnerValue;
+
+	public static explicit operator UnitFraction(double d) => new((decimal)d);
+	
 	public static explicit operator decimal(UnitFraction u) => u.InnerValue;
 
 	public static explicit operator UnitFraction(decimal d) => new(d);
