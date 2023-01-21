@@ -14,11 +14,11 @@
         <PackageLicenseUrl>https://github.com/hughesjs/Astrodynamics/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/hughesjs/Astrodynamics.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageReadmeFile>./readme.md</PackageReadmeFile>
+        <PackageReadmeFile>./README.md</PackageReadmeFile>
     </PropertyGroup>
     
     <ItemGroup>
-        <None Include="../../readme.md" Pack="true" PackagePath="\"/>
+        <None Include="../../README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
     
 </Project>
