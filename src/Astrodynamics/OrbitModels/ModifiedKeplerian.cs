@@ -1,4 +1,6 @@
 using Astrodynamics.Attributes;
+using Astrodynamics.Enums;
+using Astrodynamics.MiscModels;
 using JetBrains.Annotations;
 using UnitsNet;
 
@@ -7,14 +9,12 @@ namespace Astrodynamics.OrbitModels;
 [UsedImplicitly]
 public class ModifiedKeplerian
 {
-	public ModifiedKeplerian(Length apogee, Length perigee, Angle inclination, Duration period, Angle rightAscensionAscendingNode, DateTime? epoch = null)
+	public ModifiedKeplerian(Length apogee, Length perigee, Angle inclination, Duration period)
 	{
 		Apogee = apogee;
 		Perigee = perigee;
 		Inclination = inclination;
 		Period = period;
-		RightAscensionAscendingNode = rightAscensionAscendingNode;
-		Epoch = epoch;
 	}
 
 	[CommonSymbol("Rₐ")]
@@ -28,12 +28,4 @@ public class ModifiedKeplerian
 	
 	[CommonSymbol("T")]
 	public Duration Period { get; }
-	
-	[CommonSymbol("Ω")]
-	public Angle RightAscensionAscendingNode { get; }
-	
-	[CommonSymbol("t₀")]
-	public DateTime? Epoch { get; }
-	
-	
 }
